@@ -17,7 +17,7 @@ function App() {
           className="link"
           href="https://mobile.twitter.com/olajide_Ronke2"
           target="_blank"
-          rel="noopener noreferrer"
+          
         >
           Twitter Link
         </a>
@@ -26,7 +26,7 @@ function App() {
           href="https://training.zuri.team/"
           target="_blank"
           id="btn_zuri"
-          rel="noopener noreferrer"
+          
         >
           Zuri Team
         </a>
@@ -43,7 +43,7 @@ function App() {
           href="https://books.zuri.team/python-for-beginners?ref_id=<olajideronke>"
           target="_blank"
           id="book_python"
-          rel="noopener noreferrer"
+          
         >
           Python Books
         </a>
