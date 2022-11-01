@@ -1,9 +1,9 @@
 import logo from "./logo.svg";
 // import Ronke from './src/Ronke.jpeg'
-import slack from './slack.png';
-import github from './github.png';
-import Zuri from './Zuri.svg';
-import ingressive from './ingressive.png';
+import slack from "./slack.png";
+import github from "./github.png";
+import Zuri from "./Zuri.svg";
+import ingressive from "./ingressive.png";
 import "./App.css";
 
 function App() {
@@ -17,7 +17,6 @@ function App() {
           className="link"
           href="https://mobile.twitter.com/olajide_Ronke2"
           target="_blank"
-          
           rel="noopener noreferrer"
         >
           Twitter Link
@@ -36,7 +35,6 @@ function App() {
           href="https://books.zuri.team"
           target="_blank"
           id="books"
-          rel="noopener noreferrer"
         >
           Zuri Books
         </a>
@@ -68,22 +66,29 @@ function App() {
           Design Books
         </a>
         <div className="socials">
-        <img src={slack} alt="slack" height="7%" width="7%"></img>
-        <img src={github} alt="github" height="7%" width="7%"></img>
-      
-      </div>
-      <footer id="footer">
-        <div>
-          <img src={Zuri} alt="zuri" height="8%" width="50%" className="zuri"></img>
-          <p className="text">HNG Internship 9 Frontend Task</p>
-          <img src={ingressive} alt="ingressive"height="10%" width="45%" className="ingressive"></img>
+          <img src={slack} alt="slack" height="7%" width="7%"></img>
+          <img src={github} alt="github" height="7%" width="7%"></img>
         </div>
-      </footer>
+        <footer id="footer">
+          <div>
+            <img
+              src={Zuri}
+              alt="zuri"
+              height="8%"
+              width="50%"
+              className="zuri"
+            ></img>
+            <p className="text">HNG Internship 9 Frontend Task</p>
+            <img
+              src={ingressive}
+              alt="ingressive"
+              height="10%"
+              width="45%"
+              className="ingressive"
+            ></img>
+          </div>
+        </footer>
       </header>
-      
-
-     
-
     </div>
   );
 }
